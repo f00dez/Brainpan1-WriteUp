@@ -1,16 +1,4 @@
-# Introducción
-
-En nuestra máquina Kali, instala openvpn: ```sudo apt install openvpn``` y su archivo de configuración de vuestro perfil de Tryhackme.
-
-Nos conectamos mediante el siguiente comando: ```sudo openvpn tu_archivo.ovpn```
-
-Ve al laboratorio en cuestión: https://tryhackme.com/room/brainpan y empieza la máquina.
-
-![3097a5bada2adff4cbd104e2a42eb4b6](https://user-images.githubusercontent.com/107146199/172978488-d43c6c18-f77d-4122-89ae-8a2ea717f1e0.png)
-
-Cuando tengas la IP, estaremos listos.
-
-## Preparativos
+# Preparativos
 
 Ejecutamos un nmap de la siguiente manera: ```nmap -sC -sV -T5 -vv 10.10.250.223```
 
